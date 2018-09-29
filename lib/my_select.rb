@@ -3,10 +3,12 @@ def my_select(collection)
 i =0 
 alteredcollection =[]
 while i< collection.length 
-if 
+yield(collection[i])
+if true 
 alteredcollection << yield(collection[i])
 i += 1 
 end 
 alteredcollection
+end 
 end 
 
