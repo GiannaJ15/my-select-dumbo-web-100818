@@ -5,7 +5,7 @@ alteredcollection =[]
 while i< collection.length 
 yield(collection[i])
 if true 
-alteredcollection << yield(collection[i])
+alteredcollection << collection[i]
 end
 i += 1 
 end 
