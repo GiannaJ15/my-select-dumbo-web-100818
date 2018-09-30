@@ -3,7 +3,7 @@ def my_select(collection)
 i =0 
 alteredcollection =[]
 while i< collection.length 
-yield(collection[i])
+
 if true 
 alteredcollection << yield(collection[i])
 end
