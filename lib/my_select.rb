@@ -4,8 +4,8 @@ i =0
 alteredcollection =[]
 while i< collection.length 
 
-if collection[i] == true 
-alteredcollection << yield(collection[i])
+if yield(collection[i]) == true 
+alteredcollection << collection[i]
 end
 i += 1 
 end 
